@@ -1,0 +1,223 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  height: 100vh;
+}
+
+.wrapper {
+  max-width: 598px;
+  margin: 0 auto;
+  border: 0.1px solid rgb(209, 209, 209);
+}
+
+.edit-profile {
+  height: 66px;
+  text-align: right;
+  padding-top: 12px;
+  padding-right: 12px;
+}
+
+.edit-profile button {
+  height: 36px;
+  width: 111px;
+  background-color: white;
+  border-radius: 30px;
+  border: 0.5px solid rgb(186, 190, 194);
+  font-weight: bold;
+}
+.edit-profile :hover {
+  background-color: rgb(227, 233, 240);
+}
+
+.profile-bg {
+  height: 200px;
+  width: 100%;
+}
+
+.profile-pic {
+  position: relative;
+}
+
+.profile-img {
+  position: absolute;
+  border-radius: 50%;
+  height: 133.5px;
+  width: 133.5px;
+  z-index: 1;
+  bottom: -66px;
+  left: 16px;
+}
+
+.profile-info {
+  padding: 5px 16px;
+}
+
+.profile-name span {
+  display: block;
+}
+
+.myName {
+  font-weight: bold;
+  padding-bottom: 5px;
+}
+.userName {
+  color: rgb(83, 100, 113);
+}
+.bio {
+  margin-top: 7px;
+}
+
+.location-birth {
+  margin-top: 7px;
+}
+
+.location-birth span {
+  padding-right: 20px;
+  color: rgb(83, 100, 113);
+}
+
+.location-birth i {
+  padding: 2px;
+  font-size: 13px;
+}
+.profile-arrange {
+  list-style: none;
+  padding: 0px;
+}
+
+.profile-state-item {
+  display: inline;
+  color: rgb(83, 100, 113);
+  padding-right: 20px;
+}
+.profile-state-item span {
+  font-weight: bold;
+  color: black;
+}
+
+.tweets {
+  display: flex;
+}
+.tweets div {
+  flex: 1;
+  text-align: center;
+  padding: 25px 0;
+  border-bottom: 0.1px solid rgb(209, 209, 209);
+}
+.tweets div:hover {
+  background-color: rgb(227, 233, 240);
+}
+
+.post {
+  display: flex;
+  height: 130px;
+  border-bottom: 0.1px solid rgb(209, 209, 209);
+}
+
+.post-img {
+  width: 10%;
+}
+
+.post-img img {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  margin: 6px;
+}
+
+.post-input {
+  height: 100%;
+  width: 90%;
+}
+.post-input .input input {
+  width: 95%;
+  height: 100%;
+  border: none;
+  border-bottom: 0.1px solid rgb(209, 209, 209);
+  outline: none;
+}
+.input {
+  height: 67%;
+}
+.tweet-btn {
+  display: flex;
+  
+  height: 33%;
+  line-height: 40px;
+  justify-content: flex-end;
+}
+.tweet-btn button {
+  height: 36px;
+  width: 76px;
+  border-radius: 35px;
+  font-weight: bold;
+  color: white;
+  background-color: rgb(29, 161, 242);
+  border: 0.1px solid white;
+  margin-right: 5%;
+  opacity: 0.6;
+}
+
+#countletter {
+  display: none;
+  padding-right: 5px;
+  align-self: center;
+}
+
+
+
+
+::placeholder {
+  font-size: 1.5em;
+}
+
+.thetweets {
+  display: block;
+}
+
+.tweet-img {
+  display: inline-flex;
+  width: 10%;
+}
+.tweet-img img {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  margin: 6px;
+  margin-top: 0;
+}
+
+.thetweets:hover {
+  background-color: whitesmoke;
+}
+.tweet-container{
+width: 90%;
+}
+
+
+.tweet-container{
+  position: relative;
+}
+
+.tweet-container i {
+  position: absolute;
+  right: 27px;
+}
+
+
+.myName{
+  font-weight: bold;
+  color: black;
+}
+
+.likeAndretweet {
+  display: flex;
+  justify-content: space-around;
+}
+
+.thetweetHead {
+  display: flex;
+  margin-top: 15px;
+}
