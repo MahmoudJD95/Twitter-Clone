@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/58ebbc9aaf.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="profile-pic">
+        <img src="./Assets/profile-bg.jpeg" class="profile-bg" />
+        <img src="./Assets/profile-img.jpg" class="profile-img" />
+      </div>
+
+      <div class="edit-profile">
+        <button>Edit Profile</button>
+      </div>
+      <div class="profile-info">
+        <div class="profile-name">
+          <span class="myName"> Mahmoud</span>
+          <span class="userName"> @MahmoudJD</span>
+        </div>
+        <div class="bio">Civil Engineer</div>
+        <div class="location-birth">
+          <span> <i class="fas fa-map-marker-alt"></i>Palestine </span>
+          <span><i class="fas fa-fire"></i> Born March 18, 1995</span>
+          <span><i class="far fa-calendar-alt"></i>Joined May 2014</span>
+        </div>
+
+        <div class="profile-state">
+          <ul class="profile-arrange">
+            <li class="profile-state-item">
+              <span class="profile-Number">100</span>
+              Following
+            </li>
+
+            <li class="profile-state-item">
+              <span class="profile-Number">120</span>
+              Followers
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <nav class="tweets">
+        <div>Tweets</div>
+        <div>Tweets & replies</div>
+        <div>Media</div>
+        <div>Likes</div>
+      </nav>
+      <div class="post">
+        <div class="post-img"><img src="./Assets/profile-img.jpg" /></div>
+
+        <div class="post-input">
+          <div class="input">
+            <input
+              type="text"
+              maxlength="250"
+              placeholder="What's Happening?"
+              id="tweet-input"
+            />
+          </div>
+
+          <div class="tweet-btn"><p id="countletter">11313</p><button id="tweet-btn">Tweet</button></div>
+        </div>
+      </div>
+      <div class="thetweets"  id="thetweets">
+
+       
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
